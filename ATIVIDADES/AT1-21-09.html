@@ -1,17 +1,55 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>ATV1-21-09</title>
+  <meta charset="UTF-8">
+  <title>Perfil de Usuário</title>
 </head>
 <body>
-    <center>
-    <header>
-    <h1>Perfil de Usuário</h1>
-    </header>   
-    <h2>Bem-vindo(a) ao perfil de AKI</h2>
-    <img src="images/aki.jpeg" width="150px" height="150px" alt="aki foto">
-    </center>
+  <!-- Introdução -->
+  <h1>Perfil de Usuário</h1>
+  <p>Bem-vindo(a) ao perfil de Aki Izayoy</p>
+
+  <!-- Foto do Usuário -->
+  <h2>Foto do Usuário</h2>
+  <img src="images/aki.jpeg" width="200px" height="200px" alt="aki">
+  <figcaption> Imagem de perfil da Aki</figcaption>
+  <!-- Informações Básicas -->
+  <h2>Informações Básicas</h2>
+ <form action="/submit" method="POST">  <!--POST = Criação/ GET = Retorna os dados/ PUT = Atualizar DELETE = Deleta-->  <!--action é pra onde envia,api,server,etc-->
+        <label for="nome">Nome Completo:</label>  <!--Label recebe-->
+        <input type="text" id="nome" name="nome" required><br><br>  <!--tipo de entrada do usuário texto,senha,etc--> <!--significa que é obrigatório-->
+
+        <label for="senha">Senha</label>
+        <input type="password" id="senha" name="senha" required><br><br>
+
+        <label for="datanascimento">Data de Nascimento</label>
+        <input type="date" id="datanascimento" name="datanascimento" required><br><br>
+
+        <label for="Cidade">Cidade</label>
+        <select id="cidade"Cidade name="cidade" required>
+            <option value="tk">Tokyo</option>
+            <option value="os">Osaka</option>
+            <option value="ng">Nagasaki</option>
+            <option value="yk">Yokohoma</option>
+            <option value="ng">Nagoya</option>
+            <option value="sap">Sapporo</option>
+            <option value="fuk">Fukuoka</option>
+            <option value="kyo">Kyoto</option>
+        </select><br><br>
+ </form>
+
+  
+  <h2>Interesses</h2>
+  <ul>
+    <li>Tecnologia</li>
+    <li>Música</li>
+    <li>Aranha</li>
+    <li>Feitiço</li>
+    <li>Farofa</li>
+    <li>Jogos</li><br><br>
+  </ul>
+
+  
+  <button>Editar Perfil</button>
 </body>
 </html>
