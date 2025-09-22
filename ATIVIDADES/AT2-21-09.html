@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
+  <title>Lista de Tarefas</title>
+</head>
+<body>
+    <center><h1>Minhas tarefas</h1></center>
+    <center>
+      <form onsubmit="event.preventDefault(); adicionar();">
+        <!-- Campo de Entrada e Botão -->
+        <label for="tarefa">Digite uma nova tarefa:</label>
+        <input type="text" id="tarefa" name="tarefa">
+        <button type="submit">Adicionar Tarefa</button><br><br>
+
+        <section> 
+                <h3> <u>Listas de Tarefas</u> </h3>
+                <!-- Lista inicialmente vazia -->
+                <ol id="lista">
+                </ol>
+        </section>
+      </form>
+    </center>
+</body>
+<script>
+  function adicionar() {
+    const lista = document.getElementById("lista");
+    const input = document.getElementById("tarefa");
+
+    if (input.value.trim() === "") {
+      alert("Digite uma tarefa antes de adicionar!");
+      return;
+    }
+
+    // Cria item da lista
+    const li = document.createElement("li");
+
+    // Checkbox
+    const checkbox = document.createElement("input");
+    checkbox.type = "checkbox";
+    checkbox.onclick = function() {
+      if (checkbox.checked) {
+        li.style.textDecoration = "line-through"; // risca concluído
+      } else {
+        li.style.textDecoration = "none"; // volta ao normal
+      }
+    };
+
+    // Texto da tarefa
+    const texto = document.createTextNode(" " + input.value);
+
+    // Monta o item
+    li.appendChild(checkbox);
+    li.appendChild(texto);
+    lista.appendChild(li);
+
+    // Limpa o campo
+    input.value = "";
+  }
+</script>
+</html>
