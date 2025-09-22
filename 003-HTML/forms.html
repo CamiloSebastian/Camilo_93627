@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1> <font color="purple">Formulário Simples </font></h1>
+    <form action="/submit" method="POST">  <!--POST = Criação/ GET = Retorna os dados/ PUT = Atualizar DELETE = Deleta-->  <!--action o submit é pra onde envia,api,server,etc-->
+        <label for="nome">Nome:</label>  <!--Label recebe-->
+        <input type="text" id="nome" name="nome" required><br><br>  <!--tipo de entrada do usuário texto,senha,etc--> <!--significa que é obrigatório-->
+
+        <label for="email">E-mail</label>
+        <input type="email" id="email" name="email" required><br><br>
+
+        <label for="cores">Cores</label>
+        <input type="color" id="cores" name="cores" required><br><br>
+
+        <label for="box">Box</label>
+        <input type="checkbox" id="box" name="box" required><br><br>
+
+        <label for="procurar">Pesquisa</label>
+        <input type="search" id="procurar" name="procurar" required><br><br>
+
+            <input type="submit" value="enviar">  <!--tipo enviar para enviar os dados para onde quer que seja-->
+</body>
+</html>
