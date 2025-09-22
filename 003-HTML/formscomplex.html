@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <title>Document</title>
+</head>
+<body>
+    <h1> <font color="purple">Cadastro de Usuário </font></h1>
+    <form action="/submit" method="POST">  <!--POST = Criação/ GET = Retorna os dados/ PUT = Atualizar DELETE = Deleta-->  <!--action é pra onde envia,api,server,etc-->
+        <label for="nome">Nome Completo:</label>  <!--Label recebe-->
+        <input type="text" id="nome" name="nome" required><br><br>  <!--tipo de entrada do usuário texto,senha,etc--> <!--significa que é obrigatório-->
+
+        <label for="email">E-mail</label>
+        <input type="email" id="email" name="email" required><br><br>
+
+        <label for="senha">Senha</label>
+        <input type="password" id="senha" name="senha" required><br><br>
+
+        <label for="datanascimento">Data de Nascimento</label>
+        <input type="date" id="datanascimento" name="datanascimento" required><br><br>
+
+
+        <label for="sexo">Sexo</label>
+        <input type="radio" id="masculino" name="sexo">
+        <label for="masculino">Masculino</label>
+        <input type="radio" id="feminino" name="sexo">
+        <label for="feminino">Feminino</label><br><br>
+
+
+        <label for="interesses">interesses de jogo</label><br>
+        <input type="checkbox" id="bloons" name="interesses">
+        <label for="bloons">Bloons TD</label><br>
+        <input type="checkbox" id="Blasphemous" name="interesses">
+        <label for="Blasphemous">Blasphemous</label><br>
+        <input type="checkbox" id="oni" name="interesses">
+        <label for="oni">Ao Oni</label><br>
+        <input type="checkbox" id="clash" name="interesses">
+        <label for="clash">Clash Royale</label><br>
+        <input type="checkbox" id="pes" name="interesses">
+        <label for="pes">PES 2013</label><br>
+        <input type="checkbox" id="kof" name="interesses">
+        <label for="kof">The King Of Fighters 2002 UM</label><br><br>
+
+        <label for="Cidade">Cidade</label>
+        <select id="cidade"Cidade name="cidade" required>
+            <option value="fsa">Feira de Santana</option>
+            <option value="sal">Salvador</option>
+            <option value="sp">São Paulo</option>
+            <option value="rj">Rio de Janeiro</option>
+            <option value="sla">Sla</option>
+        </select><br><br>
+
+        <label for="cores">Cores</label>
+        <input type="color" id="cores" name="cores"><br><br>
+
+        <label for="arquivo">Selecione um arquivo</label>
+        <input type="file" id="arquivo" name="arquivo"><br><br>
+
+            <input type="submit" value="Cadastrar">  <!--tipo enviar para enviar os dados para onde quer que seja-->
+</body>
+</html>
