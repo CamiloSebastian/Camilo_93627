@@ -27,8 +27,9 @@ a{
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
-a:hover{
-    color: rgb(79, 122, 151);
+a:hover, a:link {
+  background-color: green;
+  color: white;
 }
 
 h2{
