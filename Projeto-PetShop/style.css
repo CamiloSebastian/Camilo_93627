@@ -27,7 +27,6 @@ a{
 .logo{
     padding-left: 830px;
     width: 200px;
-
     height: 200px;
 }
 
@@ -35,5 +34,67 @@ a{
     margin-top: -0px;
     width: 1880px;
     height: 800px;
-    
 } 
+
+.area{
+    position: relative;
+}
+
+.texto {
+  position: absolute;
+  top: 40%; 
+  left: 37%;
+  color: white;
+  text-align: center;
+  padding: 10px;
+  z-index: 10; 
+  font-size: 46px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.texto2 {
+  position: absolute;
+  top: 93%; 
+  left: 43%; 
+  color: white;
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 10px;
+  z-index: 10;  /*isso aqui botei so pra ajeitar a sobreposição, só isso msm*/
+  font-size: 13px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+h2{
+    color: orange;
+    font-weight: bold;
+    padding-left: 43%;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.ofc{
+    padding-left: 25%;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.botao{
+    background-color: rgb(255, 153, 0);
+    padding: 5px;
+    text-decoration: none;
+    color: white;
+    margin-right: 830px;
+    margin-left: 900px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    border-radius: 5px;
+    border: 1px solid rgb(255, 166, 0);
+    text-align: center;
+}
+
+.rodape{
+    background-color: orange;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-align: center;
+    border-top: 2px solid orangered;
+    font-size: 14px;
+}
