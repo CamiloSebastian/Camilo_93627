@@ -45,11 +45,13 @@ a{
   top: 40%; 
   left: 37%;
   color: white;
+  font-weight: bold;
   text-align: center;
   padding: 10px;
   z-index: 10; 
   font-size: 46px;
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  text-shadow: 2px 3px rgb(43, 43, 43);
 }
 
 .texto2 {
@@ -58,6 +60,7 @@ a{
   left: 43%; 
   color: white;
   text-align: center;
+  font-weight: bold;
   background-color: rgba(0, 0, 0, 0.5);
   padding: 10px;
   z-index: 10;  /*isso aqui botei so pra ajeitar a sobreposição, só isso msm*/
@@ -90,6 +93,10 @@ h2{
     text-align: center;
 }
 
+.botao:hover{
+    background-color: rgb(255, 176, 57);
+}
+
 .rodape{
     background-color: orange;
     padding-top: 20px;
@@ -97,4 +104,5 @@ h2{
     text-align: center;
     border-top: 2px solid orangered;
     font-size: 14px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
