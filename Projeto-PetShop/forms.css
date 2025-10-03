@@ -30,71 +30,71 @@ a{
     height: 200px;
 }
 
-.fundo{
-    margin-top: -0px;
-    width: 1880px;
-    height: 800px;
-} 
-
-.area{
-    position: relative;
-}
-
-.texto {
-  position: absolute;
-  top: 40%; 
-  left: 37%;
-  color: white;
-  font-weight: bold;
-  text-align: center;
-  padding: 10px;
-  z-index: 10; 
-  font-size: 46px;
-  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-  text-shadow: 2px 3px rgb(43, 43, 43);
-}
-
-.texto2 {
-  position: absolute;
-  top: 93%; 
-  left: 43%; 
-  color: white;
-  text-align: center;
-  font-weight: bold;
-  background-color: rgba(0, 0, 0, 0.5);
-  padding: 10px;
-  z-index: 10;  /*isso aqui botei so pra ajeitar a sobreposição, só isso msm*/
-  font-size: 13px;
-  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-}
-
-h2{
+h1{
+    text-align: center;
     color: orange;
-    font-weight: bold;
-    padding-left: 43%;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
-.ofc{
-    padding-left: 25%;
+form{
+    text-align: center;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
-.botao{
+input{
+    width: 500px;
+    height: 30px;
+    border-radius: 2px solid gray;
+}
+
+textarea{
+    text-align: justify;
+    width: 500px;
+    height: 30px;
+    border-radius: 2px solid gray;
+}
+
+button{
     background-color: rgb(255, 153, 0);
     padding: 5px;
-    text-decoration: none;
     color: white;
-    margin-right: 830px;
-    margin-left: 900px;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     border-radius: 5px;
     border: 1px solid rgb(255, 166, 0);
     text-align: center;
+    font-size: 15px;
+
+}
+button:hover{
+    background-color: rgb(255, 190, 92);
+}
+.drt{
+    font-weight: bold;
+    text-align: center;
+    font-size: 20px;
 }
 
-.botao:hover{
-    background-color: rgb(255, 176, 57);
+.zap{
+    background-color: rgb(0, 226, 11);
+    border: 2px solid rgb(0, 185, 9);
+    margin-left: 43%;
+    width: 300px;
+
+}
+
+.zap:hover{
+    background-color: rgb(49, 255, 59);
+}
+.zaa{
+    text-decoration: none;
+    color: white;
+    text-align: justify;
+    font-size: 15px;
+}
+img{
+    vertical-align: middle;
+    width: 20px;
+    height: 20px;
 }
 
 .rodape{
