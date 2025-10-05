@@ -29,14 +29,13 @@ a{
     width: 200px;
     height: 200px;
 }
-
-.sobre{
-
+.sobre {
+  max-width: 500px;
 }
 
-.dois{
-    width: 200px;
-    height: 200px;
+.fots{
+    width: 300px;
+    height: 250px;
 }
 .rodape{
     background-color: orange;
