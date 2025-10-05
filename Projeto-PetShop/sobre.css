@@ -29,3 +29,13 @@ a{
     width: 200px;
     height: 200px;
 }
+
+
+.rodape{
+    background-color: orange;
+    padding-bottom: 10px;
+    text-align: center;
+    border-top: 2px solid orangered;
+    font-size: 14px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
