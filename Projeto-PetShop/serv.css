@@ -32,11 +32,22 @@ a{
 
 .nos{
    text-align: center;
+   font-size: 30px;
+   font-weight: bold;
+   background-color: rgb(252, 242, 103);
+   margin-left: 38%;
+   margin-right: 38%;
+   font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
 }
 
 h4{
+    background-color: rgb(252, 242, 103);
     text-align: center;
+    padding: 5px;
+    margin-left: 43%;
+    margin-right: 43%;
     vertical-align: middle;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
 }
 
 .rodape{
