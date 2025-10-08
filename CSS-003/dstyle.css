@@ -1,0 +1,11 @@
+h1{
+    display: inline-block; /* linha, bloco ou flex, linha margem sem altura, bloco já pode , padding pode para todos, mas é a distância*/
+    background-color: red;
+    padding: 120px;
+    width: 120px;
+}
+
+h2{
+    
+    background-color: yellowgreen;
+}
