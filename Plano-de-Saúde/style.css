@@ -1,0 +1,66 @@
+.body{
+    background-color: rgb(253, 253, 253);
+}
+.titulo{
+    background-color: rgb(0, 2, 117);
+    padding: 8px;
+}
+
+.titp{
+    color: white;
+    margin-top: 10px;
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: bold;
+}
+.semitopo{
+    background-color: rgb(0, 162, 255);
+    text-align: center;
+    padding: 40px;
+    margin-top: -12px;
+    z-index: -1;
+}
+
+.cs{
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.ep{
+    color: white;
+    font-size: 13px;
+    padding-bottom: 5px;
+}
+
+.assine{
+    background-color: rgb(255, 58, 58);
+    width: 120px;
+    height: 35px;
+    border: 2px solid rgb(172, 37, 37);
+    border-radius: 8px;
+    color: white;
+}
+
+.caixas{
+    display: flex;
+}
+
+.basic{
+    margin-top: 30px;
+    background-color: rgb(223, 223, 223);
+    width: 200px;
+    height: 200px;
+    border-radius: 8px;
+}
+
+.pbasic{
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    margin-top: 40px;
+}
+
+.pbasic2{
+    text-align: center;
+}
