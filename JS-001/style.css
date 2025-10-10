@@ -1,0 +1,29 @@
+.cadastro{
+    width: 250px;
+    height: 350px;
+    background-color: #ffffff;
+    margin-left: 43%;
+    margin-top: 80px;
+    text-align: center;
+    border: 2px solid gray;
+}
+
+.pcad{
+    text-align: center;
+}
+
+.env{
+    background-color: aquamarine;
+}
+
+.lbl{
+    margin-left: 10px;
+    
+}
+
+#errorm{
+    color: red;
+    font-size: 13px;
+    margin-top: 10px;
+    text-align: center;
+}

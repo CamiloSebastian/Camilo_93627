@@ -4,26 +4,32 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <title>Document</title>
+    <title>Formulário Simples</title>
 </head>
-<body>
+<body bgcolor="#ffecec">
     <div class="cadastro">
-        <p class=""></p>
-        <form action="aaa">
-            <label for=""></label>
-            <input type="text" name="" id="">
 
-            <label for=""></label>
-            <input type="text" name="" id="">
+        <p class="pcad">CADASTRO</p>
 
-            <label for=""></label>
-            <input type="text" name="" id="">
+        <form id="simpleform" onsubmit="return validateForm()"> <!--onsubmit é para ligar o formulário ao script-->
+            <label for="name" class="lbl">Nome</label><br>
+            <input type="text" name="name" id="name" placeholder="Digite seu nome"><br></br>
 
-            <label for=""></label>
-            <input type="text" name="" id="">
+            <label for="email">Email</label><br>
+            <input type="email" name="email" id="email" placeholder="Digite seu email"><br></br>
 
-            <input type="submit" value="Cadastro">
+            <label for="senha">Senha</label><br>
+            <input type="password" name="senha" id="senha" placeholder="Digite sua senha"><br></br>
+
+            <label for="consenha">Confirmar Senha</label><br>
+            <input type="password" name="consenha" id="consenha" placeholder="Digite sua senha"><br></br>
+
+            <button class="env"><input type="submit" value="Cadastro"></button><br>
+
+            <p id="errorm"></p>
         </form>
     </div>
+
+    <script src="sript.js"></script>
 </body>
 </html>
