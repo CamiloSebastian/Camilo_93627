@@ -1,0 +1,6 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/*Garantir que a interface não mude de acordo com o monitor ou navegador*/
