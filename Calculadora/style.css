@@ -1,0 +1,9 @@
+.calc{
+    background-color: rgb(255, 255, 255);
+    border: 3px solid black;
+    width: 480px;
+    height: 480px;
+    left: 80px;
+    display: flex;
+    flex-wrap: wrap;
+}
