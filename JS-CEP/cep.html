@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+        <h2>Consulta de CEP</h2>
+        <form id="cepForm">
+            <label for="cel">CEP</label>
+            <input type="text" id="cep" name="cep" maxlength="8" required>
+
+            <button type="button" onclick="consultarCep()">Consultar</button>
+        </form>
+
+        <!--Campos para exibir -->
+        <div id="resultado">
+            <p><b>Rua:</b> <span id="rua"></span></p>
+            <p><b>Bairro:</b> <span id="bairro"></span></p>
+            <p><b>Cidade:</b> <span id="cidade"></span></p>
+            <p><b>Estado:</b> <span id="estado"></span></p>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
