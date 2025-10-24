@@ -5,7 +5,7 @@ function consultarCep() {
 
     // Verifica se o CEP tem 8 dígitos
     if (cep.length !== 14) {
-        alert("Por favor, insira um Cnpj válido com 8 dígitos.");
+        alert("Por favor, insira um Cnpj válido com 14 dígitos.");
         return; // Interrompe a execução da função se o CEP for inválido
     }
 
