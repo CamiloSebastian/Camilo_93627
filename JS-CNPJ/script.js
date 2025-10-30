@@ -1,17 +1,16 @@
 // Função que será chamada ao clicar no botão
-function consultarCep() {
+function consultarCep() {}
     // Obtém o valor do campo CEP
     const cpnj = document.getElementById('cnpj').value;
 
-<<<<<<< HEAD
     // Verifica se o CEP tem 8 dígitos
     if (cep.length !== 14) {
         alert("Por favor, insira um Cnpj válido com 14 dígitos.");
-=======
+
     // Verifica se o CNPJ tem 18 dígitos
     if (cnpj.length !== 18) {
         alert("Por favor, insira um Cnpj válido com 18 dígitos.");
->>>>>>> 1e6939cfc8bbccac8b816124d1184f6c3dff64be
+
         return; // Interrompe a execução da função se o CEP for inválido
     }
 
