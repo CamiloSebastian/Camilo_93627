@@ -1,0 +1,104 @@
+.topo{
+    background-color: #003f5c;
+    color: white;
+    padding: 10px;
+    width: 100%;
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+ }
+
+ .meio{
+    background-color: #f4e9d8;
+    padding: 10px;
+    width: 100%;
+    height: 480px;
+    text-align: justify;
+    color: #003f5c;
+    
+ }
+
+.meio h2{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-bottom: -13px;
+    margin-left: 22%;
+    margin-top: 180px;
+}
+
+.meio p{
+    margin-left: 22%;
+    font-size: 15px;
+    margin-bottom: 20px;
+}
+
+.img{
+    margin-left: 49%;
+    width: 430px;
+    height: 260px;
+    border-radius: 5px;
+    margin-top: -170px;
+}
+
+.meiod{
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: #003f5c;
+    font-size: 22px;
+    margin-top: 50px;
+}
+
+.cax1 {
+    background-color: #f4e9d8;
+    width: 340px;
+    height: 430px;
+    margin-left: 22%;
+    border-radius: 7px;
+    border: 1px solid #8b5a2b;
+}
+
+.cax1 img{
+    margin-top: 15px;
+    width: 250px;
+    height: 180px;
+    border-radius: 7px;
+}
+
+.meiod h3{
+    font-size: 22px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.meiod p{
+    font-size: 15px;
+}
+
+.cax2 {
+    background-color: #f4e9d8;
+    width: 340px;
+    height: 430px;
+    margin-left: 22%;
+    border-radius: 7px;
+    border: 1px solid #8b5a2b;
+}
+
+.cax2 img{
+    margin-top: 15px;
+    width: 250px;
+    height: 180px;
+    border-radius: 7px;
+}
+
+.cax3 {
+    background-color: #f4e9d8;
+    width: 340px;
+    height: 430px;
+    margin-left: 22%;
+    border-radius: 7px;
+    border: 1px solid #8b5a2b;
+}
+
+.cax3 img{
+    margin-top: 15px;
+    width: 250px;
+    height: 180px;
+    border-radius: 7px;
+}
