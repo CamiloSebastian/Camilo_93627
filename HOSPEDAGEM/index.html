@@ -1,93 +1,71 @@
 <!DOCTYPE html>
-<html lang="pt-BR">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Móveis do Lar – Feira de Santana</title>
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
 </head>
 <body>
-    <header class="header">
-        <div class="container">
-            <h1>Móveis do Lar</h1>
-            <p>Qualidade e estilo para o seu lar em Feira de Santana</p>
+    <header>
+        <div class="topo">
+            <h2>Móveis do Lar</h2>
+            <h3>Qualidade e estilo para o seu lar em Feira de Santana</h3>
         </div>
     </header>
-
-    <!-- Sessão 1 -->
-    <section class="sessao sessao-intro">
-        <div class="container">
-            <div class="texto">
-                <h2>Bem-vindo à nossa loja</h2>
-                <p>Na Móveis do Lar você encontra móveis de madeira, design, conforto e durabilidade. Estamos em Feira de Santana e prontos para atender você.</p>
-            </div>
-            <div class="imagem">
-                <img src="img/1.jpg" alt="Showroom móveis de madeira">
-            </div>
+    <div class="meio">
+        <h2>Bem-vindo à nossa loja</h2>
+        <p>Na Móveis do Lar você encontra móveis de madeira, design, conforto e <br>durabilidade. Estamos em Feira de Santana e prontos para atender <br>você.</p>
+        <img class="img" src="img/1.jpg" alt="">
+    </div>
+    <div class="meiod">
+        <div class="nos">
+        <h2>Nossos Destaques</h2>
         </div>
-    </section>
 
-    <!-- Sessão 2 -->
-    <section class="sessao sessao-produtos">
-        <div class="container">
-            <h2>Nossos Destaques</h2>
-            <div class="grid-produtos">
-                <div class="produto">
-                    <img src="img/3.jpg" alt="Sofá em madeira">
-                    <h3>Sofá de Madeira Maciça</h3>
-                    <p>Elegância em madeira maciça para sua sala.</p>
-                </div>
-                <div class="produto">
-                    <img src="img/2.jpg" alt="Mesa de jantar de madeira">
-                    <h3>Mesa de Jantar 6 Lugares</h3>
-                    <p>Conforto para reunir a família com estilo.</p>
-                </div>
-                <div class="produto">
-                    <img src="img/4.jpg" alt="Estante de madeira design">
-                    <h3>Estante Design em Madeira</h3>
-                    <p>Funcionalidade e beleza para sua sala ou escritório.</p>
-                </div>
-            </div>
+        <div class="cax1">
+            <img src="img/3.jpg" alt="">
+            <h3>Sofá de Madeira Maciça</h3>
+            <p>Elegância em madeira maciça para sua sala.</p>
         </div>
-    </section>
 
-    <!-- Sessão de Contato -->
-    <section class="sessao sessao-contato">
-        <div class="container">
-            <h2>Contato</h2>
-            <p>Entre em contato conosco ou fale direto pelo WhatsApp.</p>
-            <div class="contato-wrapper">
-                <form id="formContato">
-                    <div class="form-group">
-                        <label for="nome">Nome</label>
-                        <input type="text" id="nome" name="nome" required>
-                    </div>
-                    <div class="form-group">
-                        <label for="email">Email</label>
-                        <input type="email" id="email" name="email" required>
-                    </div>
-                    <div class="form-group">
-                        <label for="mensagem">Mensagem</label>
-                        <textarea id="mensagem" name="mensagem" rows="4" required></textarea>
-                    </div>
-                    <button type="submit">Enviar Mensagem</button>
-                </form>
-                <div class="whatsapp">
-                    <p>Ou fale diretamente no WhatsApp:</p>
-                    <a href="https://wa.me/55XXXXXXXXXXX?text=Olá%20Móveis%20do%20Lar%2C%20gostaria%20de%20saber%20mais..." target="_blank">
-                        <img src="img/zap.jpg" alt="WhatsApp Ícone"> (WhatsApp)
-                    </a>
-                </div>
-            </div>
+
+        <div class="cax2">
+            <img src="img/2.jpg" alt="">
+            <h3>Mesa de Jantar 6 Lugares</h3>
+            <p>Conforto para reunir a família com estilo.</p>
         </div>
-    </section>
+
+
+        <div class="cax3">
+            <img src="img/4.jpg" alt="">
+            <h3>Estante Design em Madeira</h3>
+            <p>Funcionalidade e beleza para sua sala ou escritório.</p>
+        </div>
+
+    </div>
+
+    <div class="form">
+        <h3>Contato</h3>
+        <p>Entre em contato conosco ou fale direto pelo WhatsApp.</p>
+        <form action=""></form>
+
+        <label class="a" for="">Nome</label><br>
+        <input type="text" id="nome"><br>
+
+        <label class="a" for="">Email</label><br>
+        <input type="email" id="email"><br>
+
+        <label class="a" for="">Mensagem</label><br>
+        <input type="text" id="mens"><br>
+
+        <input type="submit" value="Enviar Mensagem">
+    </div>
 
     <footer class="footer">
         <div class="container">
             <p>© 2025 Móveis do Lar – Feira de Santana, BA</p>
         </div>
     </footer>
-
-    <script src="script.js"></script>
 </body>
 </html>
